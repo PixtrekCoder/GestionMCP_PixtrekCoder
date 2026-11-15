@@ -1,0 +1,55 @@
+# --- Secrets et configurations locales ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.*
+credentials*.json
+reglages.json
+
+# --- Environnements virtuels ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Node ---
+node_modules/
+
+# --- Compilation PyInstaller (l'exécutable est publié comme pièce jointe de la release) ---
+build/
+dist/
+*.exe
+
+# --- Logs et fichiers temporaires ---
+*.log
+logs/
+*.tmp
+*.tmp_gestionmcp
+
+# --- Fichiers volumineux (> 50 Mo) ---
+# Git ne sait pas filtrer par taille : les fichiers lourds connus sont listés ici.
+*.zip
+*.7z
+*.rar
+*.iso
+*.msi
+
+# --- Éditeurs et système ---
+.vscode/
+.idea/
+.claude/
+Thumbs.db
+Desktop.ini
+.DS_Store
