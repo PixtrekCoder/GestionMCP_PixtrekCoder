@@ -117,3 +117,7 @@ plugins et connecteurs claude.ai, Zed, Continue.
 
 Le dépôt ne contient pas de suite de tests automatisés. La version 1.0.0 a été validée par des
 essais manuels de l'application.
+
+## Licence
+
+Distribué sous licence MIT. Voir le fichier [LICENSE](LICENSE).
